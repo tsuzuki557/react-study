@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import Btn from "./components/Btn";
+import GetData from "./components/GetData";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <Btn txt="小さい文字">あああ</Btn>
+      <GetData />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

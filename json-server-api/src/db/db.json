@@ -1,9 +1,11 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    { "id": 1, "title": "タイトルがはいりますよ1", "author": "だれだ！！1" }, 
+    { "id": 2, "title": "タイトルがはいりますよ2", "author": "だれだ！！2" },
+    { "id": 3, "title": "タイトルがはいりますよ3", "author": "だれだ！！3" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
   "profile": { "name": "typicode" }
-}
+} 
