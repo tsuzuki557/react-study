@@ -4,7 +4,8 @@
 //import Modal from "./components/Modal";
 //import CoRadio from "./components/CoRadio";
 // import UseRefCase1 from "./components/UseRefCase1";
-import Movie from "./components/Movie";
+// import Movie from "./components/Movie";
+import SampleUseReducer from "./components/SampleUseReducer";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <CoRadio labelName="たまご" />
       <CoRadio labelName="みかん" /> */}
       {/* <UseRefCase1 /> */}
-      <Movie />
+      {/* <Movie /> */}
+      <SampleUseReducer />
     </>
   );
 }
