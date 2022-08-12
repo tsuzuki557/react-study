@@ -1,0 +1,18 @@
+.modalContainer .modalOverlay{
+  /* modalContainerの中でないと表示されない */
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  color: #fff;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalOverlay__body{
+}
