@@ -12,7 +12,9 @@ function SampleUseReducer() {
     }
   }, 0);
 
-  // useReducerはuseStateの書き換えに使用
+  // useState:状態の更新の仕方は利用者に託す
+  // useReducer:状態の更新の仕方も状態側で担当する
+
   // prevState：前のステート
   // useStateで書くと
   const countUp = () => setState((prev) => ++prev);
